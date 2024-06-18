@@ -64,7 +64,7 @@ my-blog
 
 The following animation demonstrates the application functionality:
 
-![A user adds a blog through a form, then the post appears on the following page.](./Assets/100-web-apis-challenge-demo.gif)
+![A user adds a blog through a form, then the post appears on the following page.](./assets/100-web-apis-challenge-demo.gif)
 
 ## Grading Requirements
 
