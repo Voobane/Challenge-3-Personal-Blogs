@@ -1,4 +1,4 @@
-Deployed Application Link: #########################
+Deployed Application Link: (https://voobane.github.io/Challenge-3-Personal-Blog/)
 
 # 04 Web APIs: Personal Blog
 
