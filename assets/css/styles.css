@@ -1,1 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
+.header {
+    height: 10%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px double black;
+}
+
+.content {
+    height: 90%;
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.line {
+    position: relative;
+    width: 10px; /* Total width to accommodate both lines */
+}
+
+.line::before,
+.line::after {
+    content: '';
+    position: absolute;
+    width: 3px; /* Width of each line */
+    height: 100%;
+    background-color: black;
+}
+
+.line::before {
+    left: 0;
+}
+
+.line::after {
+    right: 0;
+}
+
+.centered-image {
+    max-width: 100%;
+    max-height: 100%;
+}
