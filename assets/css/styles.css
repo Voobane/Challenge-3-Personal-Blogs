@@ -14,7 +14,6 @@ body.light-mode {
     --header-background-color: white;
     --header-border-color: black;
     --line-color: black;
-    --slider-background-image: url('./assets/images/sun-icon.png');
 }
 
 body.dark-mode {
@@ -25,7 +24,6 @@ body.dark-mode {
     --line-color: white;
     --slider-background-color: #444;
     --slider-checked-background-color: #bbb;
-    --slider-background-image: url('./assets/images/moon-icon.png');
 }
 
 body, html {
